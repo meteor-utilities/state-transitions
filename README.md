@@ -1,11 +1,11 @@
-# utilities:simple-state
+# utilities:state-transitions
 
 A simplified reactive state transitions engine 
 
 ## Installation
 
 ```
-meteor add utilities:simple-state
+meteor add utilities:state-transitions
 ```
 
 ## Description
