@@ -36,6 +36,10 @@ Note that you should add all your desired transitions *before* `Meteor.startup()
 
 Transitions can be accessed as `collection.stateTransitions`.
 
+Example:
+
+![http://f.cl.ly/items/432q2z0W0N0J0M443t2b/Screen%20Shot%202015-09-05%20at%206.08.27%20PM.png](http://f.cl.ly/items/432q2z0W0N0J0M443t2b/Screen%20Shot%202015-09-05%20at%206.08.27%20PM.png)
+
 ## Example
 
 Let's suppose posts in our app each have a `status` property that tracks whether they're `approved`, `pending`, `rejected`, `deleted`, etc. 

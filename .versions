@@ -17,4 +17,4 @@ random@1.0.3
 retry@1.0.3
 tracker@1.0.7
 underscore@1.0.3
-utilities:state-transitions@0.1.0
+utilities:state-transitions@0.1.2

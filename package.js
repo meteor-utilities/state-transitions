@@ -1,8 +1,8 @@
 Package.describe({
   name: "utilities:state-transitions",
   summary: "A simplified reactive state transitions engine",
-  version: "0.1.0",
-  git: "https://github.com/meteor-utilities/meteor-simple-state"
+  version: "0.1.3",
+  git: "https://github.com/meteor-utilities/state-transitions"
 });
 
 Package.onUse(function(api) {
