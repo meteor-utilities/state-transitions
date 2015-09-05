@@ -14,7 +14,7 @@ This package watches a given property on your documents, and executes a callback
 
 Note that this is not a full-fledged [state machine](https://atmospherejs.com/natestrauser/statemachine), but just a way to conditionally execute code when a document's property changes between a set of given values. 
 
-## Usage
+## Adding Transitions
 
 `myCollection.stateTransitions(property, transitions)`
 
@@ -29,6 +29,12 @@ Transitions have the following properties:
 - `from`: the start state to match, array of start states, or wildcard (`*`).
 - `to`: the end state to match, array of start states, or wildcard (`*`)
 - `callback(oldDocument, newDocument)`: the function to execute if the transition is matched. 
+
+Note that you should add all your desired transitions *before* `Meteor.startup()`, not inside it. 
+
+## Listing Transitions
+
+Transitions can be accessed as `collection.stateTransitions`.
 
 ## Example
 
